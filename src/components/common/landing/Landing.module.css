@@ -1,0 +1,64 @@
+.main {
+  background-color: var(--bg);
+  padding-top: 100px;
+  display: flex;
+  align-items: stretch;
+  height: calc(100vh - 134.5px);
+}
+.title {
+  font-family: 'Press Start 2P', cursive;
+  color: var(--yellow);
+  margin-top: 20px;
+  font-size: 46px;
+}
+
+.description {
+  color: var(--font-dark);
+  font-size: 25px;
+
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+@media only screen and (max-width: 576px) {
+  .description {
+    margin-bottom: 30px;
+  }
+}
+
+.signup,
+.login {
+  margin-top: 20px;
+  width: 150px !important;
+  padding: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+@media only screen and (max-width: 992px) {
+  .title {
+    font-size: 36px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .signup,
+  .login {
+    width: 150px !important;
+  }
+}
+@media only screen and (max-width: 512px) {
+  .title {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 18px;
+  }
+  .signup,
+  .login {
+    width: 100% !important;
+  }
+}
+
+.image {
+  bottom: 100px;
+  right: 30px;
+}

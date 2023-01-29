@@ -1,0 +1,44 @@
+.loginButton {
+  margin-top: 20px;
+  width: 150px !important;
+  padding: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+.container {
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--font);
+  font-family: var(--font-family);
+}
+
+.login h2 {
+  font-family: 'Press Start 2P', cursive;
+  color: var(--yellow);
+}
+
+.login h6 {
+  color: var(--font);
+}
+.col {
+  border: 1px solid var(--font-dark);
+}
+
+.imageCol {
+  padding: 0px;
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+  padding-top: 73px;
+  background-color: var(--font);
+}
+.login_form {
+  padding: 0px 24px 0px 24px;
+  margin: auto;
+}

@@ -1,0 +1,11 @@
+.header {
+  background-color: var(--bg);
+}
+.menu a {
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--yellow);
+}
+
+.menu a:hover {
+  color: var(--font);
+}

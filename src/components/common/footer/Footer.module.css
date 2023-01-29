@@ -1,0 +1,12 @@
+.footer {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: var(--bg);
+  color: var(--yellow);
+}
+
+.web {
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--yellow);
+  text-decoration: none;
+  margin-left: 5px;
+}
